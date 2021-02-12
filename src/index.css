@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.mainDiv{
+  width: 100%;
+  height: 100vh;
+  background:#ebdbfd;
+  display: flex;
+}
+.centerDiv{
+  width: 23%;
+  height: 75vh;
+  background-color: white;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+}
+h1{
+  color: white;
+  background-color: #8566aa;
+  padding: 2px;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  margin-top: 0;
+}
+.dayDate{
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 25px;
+}
+input{
+  text-align: center;
+  height: 30px;
+  border: none;
+  background:transparent;
+  font-size: 22px;
+  border-bottom:2px solid #8566aa;
+  margin-top:7px;
+  width: 78%;
+  margin-left: 15px;
+  outline: none;
+  font-family: 'Patrick Hand', cursive;
+}
+.add{
+  min-height: 10px;
+  width: 35px;
+  border-radius: 50%;
+  background:#8566aa;
+  border-color: transparent;
+  color: white;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  margin-right: 5px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.add:hover{
+  background-color: #66aa68;
+  color: white;
+}
+ol{
+  margin-top: 30px;
+}
+ol li{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 25px;
+  align-items: left;
+  color: #784caf;
+  margin-left: 35px;
+}
+.todo{
+  display: flex;
+  justify-content: space-between;
+}
+.delete{
+  font-size: 15px;
+  font-weight: bold;
+  background: #8566aa;
+  border: none;
+  outline: none;
+  border-color: transparent;
+  color: white;
+  width: 25px;
+  height:25px;
+  border-radius: 50%;
+  margin-right: 23px;
+}
+.delete:hover{
+  background-color: rgb(255, 68, 68);
+}
